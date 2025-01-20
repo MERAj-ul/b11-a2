@@ -11,12 +11,21 @@
 .display-flex{
     display: flex;
 }
+.btn-primary{
+    width: 197px;
+    height: 50px;
+    background-color: #111111;
+    font-size: 20px;
+    color: white;
+    border: none;
+    border-radius: 12px;
+}
 /* Colors */
 .orange{
     color: #FEA301;
 }
 .skyblue{
-    columns: #01ACFD;
+    color: #01ACFD;
 }
 .l-blue{
     color: #05D4DF;
@@ -56,4 +65,23 @@ nav a{
     color: white;
     border: none;
     border-radius: 12px;
+}
+/* Banner */
+.banner{
+    margin: 20px 140px;
+    max-width: 1160px;
+    max-height: 575px;
+    align-items: center;
+    gap: 50px;
+}
+.banner-title{
+    font-size: 50px;
+    font-weight: bold;
+}
+.banner-description{
+    color: #111111;
+    font-size: 20px;
+}
+.banner img{
+    width: 100%;
 }
