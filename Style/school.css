@@ -8,7 +8,52 @@
   font-style: normal;
 }
 /* Shared Style */
-
-
-
+.display-flex{
+    display: flex;
+}
+/* Colors */
+.orange{
+    color: #FEA301;
+}
+.skyblue{
+    columns: #01ACFD;
+}
+.l-blue{
+    color: #05D4DF;
+}
+.n-blue{
+    color: #5D58EF;
+}
 /* Navigation Bar */
+.navbar{
+    justify-content: space-around;
+    align-items: center;
+    margin: 0rem 8.75rem;
+}
+nav img{
+    /* margin-left: 140px; */
+    max-width: 62px;
+    max-height: 62px;
+}
+.item-container{
+    /* margin-left: 186px; */
+}
+nav ul li{
+    list-style: none;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 2rem;
+    /* margin-left: 11.6rem; */
+}
+nav a{
+    text-decoration: none;
+}
+.nav-btn{
+    width: 197px;
+    height: 50px;
+    background-color: #FEA301;
+    font-size: 20px;
+    color: white;
+    border: none;
+    border-radius: 12px;
+}
