@@ -85,3 +85,44 @@ nav a{
 .banner img{
     width: 100%;
 }
+/* Curriculum Section */
+.curriculum{
+    background-image: url(../assets/bg.png);
+    
+}
+.curriculum-title{
+    font-size: 60px;
+    font-weight: bold;
+    color: #000000;
+    text-align: center;
+    margin: 60px auto;
+}
+.curriculum-cards{
+    margin: 80px 140px;
+    gap: 30px;
+}
+.cards{
+    border: 2px solid tomato;
+    max-width: 367px;
+    max-width: 476px;
+    justify-content: center;
+    text-align: center;
+    border-radius: 19px;
+
+    /* background-color: #DEF5FF; */
+}
+.card-image{
+    max-width: 135px;
+    max-height: 135px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.card-header{
+    font-size: 25px;
+    font-weight: bold;
+}
+.card-description{
+    font-size: 15px;
+    font-weight: 400px;
+    color: #808080;
+}
