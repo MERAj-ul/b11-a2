@@ -33,6 +33,9 @@
 .n-blue{
     color: #5D58EF;
 }
+.violet{
+    color: #8700FF;
+}
 /* Navigation Bar */
 .navbar{
     justify-content: space-around;
@@ -44,9 +47,9 @@ nav img{
     max-width: 62px;
     max-height: 62px;
 }
-.item-container{
-    /* margin-left: 186px; */
-}
+/* .item-container{
+    margin-left: 186px;
+} */
 nav ul li{
     list-style: none;
     font-size: 20px;
@@ -102,14 +105,13 @@ nav a{
     gap: 30px;
 }
 .cards{
-    border: 2px solid tomato;
+    /* border: 2px solid tomato; */
     max-width: 367px;
     max-width: 476px;
     justify-content: center;
     text-align: center;
     border-radius: 19px;
-
-    /* background-color: #DEF5FF; */
+    box-shadow: 0px 0px 28.3px rgba(0, 0, 0, 0.05);
 }
 .card-image{
     max-width: 135px;
@@ -125,4 +127,24 @@ nav a{
     font-size: 15px;
     font-weight: 400px;
     color: #808080;
+}
+.grad-blue{
+    /* height: 120px; */
+    background-color: #DEF5FF;
+    background-image: linear-gradient(180deg,#DEF5FF,#FFFFFF);
+}
+.grad-orange{
+    /* height: 120px; */
+    background-color: #FFF4DC;
+    background-image: linear-gradient(180deg,#FFF4DC,#FFFFFF);
+}
+.grad-violet{
+    /* height: 120px; */
+    background-color: #F2E8FF;
+    background-image: linear-gradient(180deg,#F2E8FF,#FFFFFF);
+}
+.card-btn{
+    font-size: 16px;
+    border: none;
+    background-color: white;
 }
