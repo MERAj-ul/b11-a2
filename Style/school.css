@@ -36,6 +36,16 @@
 .violet{
     color: #8700FF;
 }
+/* Background Color */
+.bg-skyblue{
+    background-color: #3CD8E8;
+}
+.bg-green{
+    background-color: #95B226;
+}
+.bg-violet{
+    background-color: #5D58F0;
+}
 /* Navigation Bar */
 .navbar{
     justify-content: space-around;
@@ -101,7 +111,9 @@ nav a{
     margin: 60px auto;
 }
 .curriculum-cards{
-    margin: 80px 140px;
+    margin-top: 80px;
+    margin-right: 140px;
+    margin-left: 140px;
     gap: 30px;
 }
 .cards{
@@ -161,4 +173,96 @@ nav a{
     color: white;
     border: none;
     border-radius: 50%; 
+}
+/* Stories Section */
+.stories{
+    /* max-width: 1440px; */
+    margin-right: 140px;
+    margin-left: 140px;
+    background-image: linear-gradient(
+        0deg,
+        rgba(254, 163, 1, 1),
+        rgba(255, 255, 255, 1)
+    );
+    /* url(../assets/bg.png); */
+}
+.card-header{
+    text-align: center;
+    font-size: 46px;
+    margin-top: 60px;
+    margin-bottom: 80px;
+
+}
+.stories > div{
+    width: 50%;
+    gap: 19px;
+}
+.stories-card{
+    display: flex;
+    max-width: 540px;
+    max-height: 630px;   
+}
+.stories img{
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+}
+.Card-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 19px;
+    /* max-width: 540px;
+    max-height: 630px; */
+}
+.big-image-container{
+    background-color: white;
+    border-radius: 16px;
+}
+.Card-container h5{
+    font-size: 16px;
+    font-weight: bold;
+    /* padding: 23px 71px 33px 38px; */
+    margin: 0px 38px 28px 37px;
+}
+.image-container {
+    /* border: 2px solid tomato; */
+    background-color: white;
+    border-radius: 16px;
+    max-width: 290px;
+    max-height: 301px;
+    
+}
+.big-image-container h5{
+    font-size: 1.5rem;
+}
+.big-image-container .stories-title{
+    margin: 58px 38px 0px 38px;
+}
+.big-image-container .stories-description{
+    margin: 40px 48px 60px 34px;
+    font-size: 16px;
+    font-weight: 400px;
+    color: #666666;
+
+}
+.stories-title{
+    font-size: 1rem;
+    /* padding: 60px 100px 50px 40px; */
+}
+.date-btn{
+    max-width: 174px;
+    max-height: 48px;
+    border: none;
+    font-size: 15px;
+    color: white;
+    font-weight: 400px;
+    padding: 14px 18px;
+    border-radius: 48px;
+    position: relative;
+    left: 30px;
+    top: -30px;
+
+}
+.view-btn{
+    margin: 60px auto;
+    
 }
