@@ -272,9 +272,43 @@ footer{
     margin-right: 140px;
     margin-left: 140px;
 }
-footer img{
+.icon-container{
+    margin-top: 123px;
+    margin-left: 140px;
+}
+.icon-container h2{
+    margin-top: 0px;
+}
+.icon-container img{
     /* margin-left: 140px; */
     max-width: 62px;
     max-height: 62px;
     /* color: white; */
+}
+.icon-container p{
+    max-width: 400px;
+    max-height: 100px;
+    margin-bottom: 170px;
+}
+
+.about-school{
+    border: 2px solid tomato;
+    padding: 0px 0px;
+    max-width: 150px;
+    margin-top: 123px;
+    margin-left: 50px;
+    margin-bottom: 174px;
+}
+.about-school h3{
+    font-size: 24px;
+    font-weight: bold;
+    
+}
+.about-school h5{
+    font-size: 16px;
+    /* font-weight: 400px; */
+}
+footer{
+    display: flex;
+    gap: 140px;
 }
